@@ -1,0 +1,16 @@
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\obj\Debug\net5.0\C# Generics - Assignment 2.2.csprojAssemblyReference.cache
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\obj\Debug\net5.0\C# Generics - Assignment 2.2.GeneratedMSBuildEditorConfig.editorconfig
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\obj\Debug\net5.0\C# Generics - Assignment 2.2.AssemblyInfoInputs.cache
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\obj\Debug\net5.0\C# Generics - Assignment 2.2.AssemblyInfo.cs
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\obj\Debug\net5.0\C# Generics - Assignment 2.2.csproj.CoreCompileInputs.cache
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\bin\Debug\net5.0\C# Generics - Assignment 2.2.exe
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\bin\Debug\net5.0\C# Generics - Assignment 2.2.deps.json
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\bin\Debug\net5.0\C# Generics - Assignment 2.2.runtimeconfig.json
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\bin\Debug\net5.0\C# Generics - Assignment 2.2.runtimeconfig.dev.json
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\bin\Debug\net5.0\C# Generics - Assignment 2.2.dll
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\bin\Debug\net5.0\ref\C# Generics - Assignment 2.2.dll
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\bin\Debug\net5.0\C# Generics - Assignment 2.2.pdb
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\obj\Debug\net5.0\C# Generics - Assignment 2.2.dll
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\obj\Debug\net5.0\ref\C# Generics - Assignment 2.2.dll
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\obj\Debug\net5.0\C# Generics - Assignment 2.2.pdb
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.2\obj\Debug\net5.0\C# Generics - Assignment 2.2.genruntimeconfig.cache
