@@ -1,0 +1,48 @@
+C:\Users\neera\OneDrive\Desktop\practice git\generic\bin\Debug\net5.0\generic.exe
+C:\Users\neera\OneDrive\Desktop\practice git\generic\bin\Debug\net5.0\generic.deps.json
+C:\Users\neera\OneDrive\Desktop\practice git\generic\bin\Debug\net5.0\generic.runtimeconfig.json
+C:\Users\neera\OneDrive\Desktop\practice git\generic\bin\Debug\net5.0\generic.runtimeconfig.dev.json
+C:\Users\neera\OneDrive\Desktop\practice git\generic\bin\Debug\net5.0\generic.dll
+C:\Users\neera\OneDrive\Desktop\practice git\generic\bin\Debug\net5.0\ref\generic.dll
+C:\Users\neera\OneDrive\Desktop\practice git\generic\bin\Debug\net5.0\generic.pdb
+C:\Users\neera\OneDrive\Desktop\practice git\generic\obj\Debug\net5.0\generic.csprojAssemblyReference.cache
+C:\Users\neera\OneDrive\Desktop\practice git\generic\obj\Debug\net5.0\generic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neera\OneDrive\Desktop\practice git\generic\obj\Debug\net5.0\generic.AssemblyInfoInputs.cache
+C:\Users\neera\OneDrive\Desktop\practice git\generic\obj\Debug\net5.0\generic.AssemblyInfo.cs
+C:\Users\neera\OneDrive\Desktop\practice git\generic\obj\Debug\net5.0\generic.csproj.CoreCompileInputs.cache
+C:\Users\neera\OneDrive\Desktop\practice git\generic\obj\Debug\net5.0\generic.dll
+C:\Users\neera\OneDrive\Desktop\practice git\generic\obj\Debug\net5.0\ref\generic.dll
+C:\Users\neera\OneDrive\Desktop\practice git\generic\obj\Debug\net5.0\generic.pdb
+C:\Users\neera\OneDrive\Desktop\practice git\generic\obj\Debug\net5.0\generic.genruntimeconfig.cache
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\bin\Debug\net5.0\generic.exe
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\bin\Debug\net5.0\generic.deps.json
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\bin\Debug\net5.0\generic.runtimeconfig.json
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\bin\Debug\net5.0\generic.runtimeconfig.dev.json
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\bin\Debug\net5.0\generic.dll
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\bin\Debug\net5.0\ref\generic.dll
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\bin\Debug\net5.0\generic.pdb
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\obj\Debug\net5.0\generic.csprojAssemblyReference.cache
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\obj\Debug\net5.0\generic.GeneratedMSBuildEditorConfig.editorconfig
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\obj\Debug\net5.0\generic.AssemblyInfoInputs.cache
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\obj\Debug\net5.0\generic.AssemblyInfo.cs
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\obj\Debug\net5.0\generic.csproj.CoreCompileInputs.cache
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\obj\Debug\net5.0\generic.dll
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\obj\Debug\net5.0\ref\generic.dll
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\obj\Debug\net5.0\generic.pdb
+H:\practice codes\dot net c#\24-02-2021\Assignment2.1\obj\Debug\net5.0\generic.genruntimeconfig.cache
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\bin\Debug\net5.0\generic.exe
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\bin\Debug\net5.0\generic.deps.json
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\bin\Debug\net5.0\generic.runtimeconfig.json
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\bin\Debug\net5.0\generic.runtimeconfig.dev.json
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\bin\Debug\net5.0\generic.dll
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\bin\Debug\net5.0\ref\generic.dll
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\bin\Debug\net5.0\generic.pdb
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\obj\Debug\net5.0\generic.csprojAssemblyReference.cache
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\obj\Debug\net5.0\generic.GeneratedMSBuildEditorConfig.editorconfig
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\obj\Debug\net5.0\generic.AssemblyInfoInputs.cache
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\obj\Debug\net5.0\generic.AssemblyInfo.cs
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\obj\Debug\net5.0\generic.csproj.CoreCompileInputs.cache
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\obj\Debug\net5.0\generic.dll
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\obj\Debug\net5.0\ref\generic.dll
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\obj\Debug\net5.0\generic.pdb
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 2.1\obj\Debug\net5.0\generic.genruntimeconfig.cache
