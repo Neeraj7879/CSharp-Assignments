@@ -65,8 +65,11 @@ namespace C__Generics___Assignment_2._2
 
                 /* enter current Prime minister */
                 Console.WriteLine("\nAfter Adding current Prime Minister :- ");
+                Console.Write("\nEnter Name of Current Prime Minister :- ");
                 String Name_temp = Console.ReadLine();
+                Console.Write("Enter Year:- ");
                 int Year_temp = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine();
 
                 Add_sorting(Name_temp, Year_temp);
             }
@@ -93,7 +96,7 @@ namespace C__Generics___Assignment_2._2
             /* Sorting On basis of years value.Year */
             Console.WriteLine("\n List Sorted Order(by Year):-\n");
             Raw_Data = Raw_Data.OrderBy(r => r.Value.Year).ToDictionary(r => r.Key, r => r.Value);
-            var sorteddict = new SortedDictionary<string, int>(Raw_Data.Values);
+
             foreach (var i in Raw_Data.Values)
                 Console.WriteLine(i);
 
