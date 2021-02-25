@@ -110,13 +110,14 @@ namespace Assignment2
 
 
             /*purchase function*/
-            calculate_total(Raw_Data);
+            double result = calculate_total(Raw_Data);
+            Console.WriteLine("\nAfter purchasing 1 kg lettuce,2 kg zucchini, 1kg broccoli Rounded Value:-{0}", result);
 
 
         }
 
         /*function calculating  purchases of 1kg lettuce,2kg zucchini,1 kg broccoli*/
-        private static void calculate_total(List<Program> Raw_Data)
+        private static double calculate_total(List<Program> Raw_Data)
         {
             double Cost = 0;
             double Cost_let = 0;
@@ -141,8 +142,8 @@ namespace Assignment2
             }
             Cost = Cost_let + Cost_zuc + Cost_bro;
 
-            Console.WriteLine("\nAfter purchasing 1 kg lettuce,2 kg zucchini, 1kg broccoli Rounded Value:-{0}", Math.Round(Cost));
-            //return Math.Round(total);
+
+            return Math.Round(Cost);
 
         }
 
