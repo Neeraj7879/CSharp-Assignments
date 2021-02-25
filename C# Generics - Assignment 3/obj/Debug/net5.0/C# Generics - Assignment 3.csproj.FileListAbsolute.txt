@@ -1,0 +1,16 @@
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\obj\Debug\net5.0\C# Generics - Assignment 3.csprojAssemblyReference.cache
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\obj\Debug\net5.0\C# Generics - Assignment 3.GeneratedMSBuildEditorConfig.editorconfig
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\obj\Debug\net5.0\C# Generics - Assignment 3.AssemblyInfoInputs.cache
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\obj\Debug\net5.0\C# Generics - Assignment 3.AssemblyInfo.cs
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\obj\Debug\net5.0\C# Generics - Assignment 3.csproj.CoreCompileInputs.cache
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\bin\Debug\net5.0\C# Generics - Assignment 3.exe
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\bin\Debug\net5.0\C# Generics - Assignment 3.deps.json
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\bin\Debug\net5.0\C# Generics - Assignment 3.runtimeconfig.json
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\bin\Debug\net5.0\C# Generics - Assignment 3.runtimeconfig.dev.json
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\bin\Debug\net5.0\C# Generics - Assignment 3.dll
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\bin\Debug\net5.0\ref\C# Generics - Assignment 3.dll
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\bin\Debug\net5.0\C# Generics - Assignment 3.pdb
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\obj\Debug\net5.0\C# Generics - Assignment 3.dll
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\obj\Debug\net5.0\ref\C# Generics - Assignment 3.dll
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\obj\Debug\net5.0\C# Generics - Assignment 3.pdb
+H:\practice codes\dot net c#\24-02-2021\C# Generics - Assignment 3\obj\Debug\net5.0\C# Generics - Assignment 3.genruntimeconfig.cache

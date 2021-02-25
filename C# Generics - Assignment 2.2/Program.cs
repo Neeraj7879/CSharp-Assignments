@@ -93,6 +93,7 @@ namespace C__Generics___Assignment_2._2
             /* Sorting On basis of years value.Year */
             Console.WriteLine("\n List Sorted Order(by Year):-\n");
             Raw_Data = Raw_Data.OrderBy(r => r.Value.Year).ToDictionary(r => r.Key, r => r.Value);
+            var sorteddict = new SortedDictionary<string, int>(Raw_Data.Values);
             foreach (var i in Raw_Data.Values)
                 Console.WriteLine(i);
 
