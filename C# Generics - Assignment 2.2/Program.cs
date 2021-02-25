@@ -64,13 +64,13 @@ namespace C__Generics___Assignment_2._2
                 }
 
                 /* enter current Prime minister */
-                Console.WriteLine("\nAfter Adding current Prime Minister :- ");
                 Console.Write("\nEnter Name of Current Prime Minister :- ");
                 String Name_temp = Console.ReadLine();
                 Console.Write("Enter Year:- ");
                 int Year_temp = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine();
 
+                Console.WriteLine("\nAfter Adding current Prime Minister :- ");
                 Add_sorting(Name_temp, Year_temp);
             }
             catch

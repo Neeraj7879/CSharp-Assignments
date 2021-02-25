@@ -48,61 +48,59 @@ public class Program
         Program program = new Program();
 
 
-        //Print total Salary of all the employee with their corresponding names in ascending order of their salary.
         program.Task1();
-        //print Employee details of 2nd oldest employee including total monthly salary.
         program.Task2();
-        //print Mean of Monthly, Performance, Bonus salary of employees whose age is greater than 30
         program.Task3();
     }
 
 
     public void Task1()
     {
-        var taskQuery = from employee in employeeList
-                        join salary in salaryList
-                        on employee.EmployeeID equals salary.EmployeeID into employee1
-                        select new
-                        {
-                            Name = employee.EmployeeFirstName + employee.EmployeeLastName,
-                            TotalSalary = employee1.Sum(s => s.Amount)
-                        };
-        var taskQuery1 = from employee in taskQuery orderby employee.TotalSalary select employee;
+        /* print total Salary in ascending order of all the employee in with there name */
+        var Query_temp = from emp in employeeList
+                         join sal in salaryList
+                         on emp.EmployeeID equals sal.EmployeeID into employee_temp
+                         select new
+                         {
+                             Name = emp.EmployeeFirstName + emp.EmployeeLastName,
+                             Total_Salary = employee_temp.Sum(s => s.Amount)
+                         };
+        var Query_temp1 = from emp in Query_temp orderby emp.Total_Salary select emp;
 
-        Console.WriteLine("Total salary Of All The Employee in ascending order of their salary with Name: ");
-        foreach (var emp in taskQuery1)
+        Console.WriteLine("Total salary Of All The Employee with their salary with Name: \n ");
+        foreach (var emp in Query_temp1)
         {
+            Console.WriteLine("Name : {0} \t Total Salary : {1}", emp.Name, emp.Total_Salary);
 
-            Console.WriteLine($"Name : {emp.Name} \t Total Salary : {emp.TotalSalary}");
         }
         Console.WriteLine();
     }
 
     public void Task2()
     {
-        var taskQuery2 = from employee in employeeList
+        /* print 2nd oldest employee with total monthly salary. */
+        var Query_temp = from emp in employeeList
                          join salary in salaryList
-                         on employee.EmployeeID equals salary.EmployeeID
+                         on emp.EmployeeID equals salary.EmployeeID
                          where salary.Type == SalaryType.Monthly
-                         orderby employee.Age descending
+                         orderby emp.Age descending
                          select new
                          {
-                             employee,
+                             emp,
                              salary
                          } into result
-                         group result by result.employee.EmployeeID;
+                         group result by result.emp.EmployeeID;
 
-        Console.WriteLine("Employee details of 2nd oldest employee including total monthly salary.");
-        foreach (var emp in taskQuery2.Take(2).Skip(1))
+        Console.WriteLine("Employee details of 2nd oldest employee");
+        foreach (var emp in Query_temp.Take(2).Skip(1))
         {
 
             foreach (var emp1 in emp)
             {
                 Console.WriteLine();
-                Console.WriteLine($"Id:{emp1.employee.EmployeeID}");
-                Console.WriteLine($"Name: {emp1.employee.EmployeeFirstName} {emp1.employee.EmployeeLastName}");
-                Console.WriteLine($"Age:{emp1.employee.Age}");
-                Console.WriteLine($"Monthly Salary:{emp1.salary.Amount}");
+                Console.WriteLine("Id: {0} Name: {1} {2} Age: {3} Monthly Salary: {4}", emp1.emp.EmployeeID
+                , emp1.emp.EmployeeFirstName, emp1.emp.EmployeeLastName, emp1.emp.Age, emp1.salary.Amount
+                );
 
             }
         }
@@ -111,23 +109,23 @@ public class Program
 
     public void Task3()
     {
+        /*Print mean of monthly, performance and bonus salary of all the employees where age is greater than 30*/
+        var Query_temp3 = from emp in employeeList
+                          where emp.Age > 30
+                          join sal in salaryList
+                          on emp.EmployeeID equals sal.EmployeeID into employee_temp
+                          select new
+                          {
+                              EmployeeId = emp.EmployeeID,
+                              EmployeeName = emp.EmployeeFirstName + emp.EmployeeLastName,
+                              EmployeeAge = emp.Age,
+                              AverageSalary = employee_temp.Average(s => s.Amount)
 
-        var taskQuery3 = from employee in employeeList
-                         where employee.Age > 30
-                         join salary in salaryList
-                         on employee.EmployeeID equals salary.EmployeeID into employee1
-                         select new
-                         {
-                             EmployeeId = employee.EmployeeID,
-                             EmployeeName = employee.EmployeeFirstName + employee.EmployeeLastName,
-                             EmployeeAge = employee.Age,
-                             AverageSalary = employee1.Average(s => s.Amount)
-
-                         };
+                          };
 
 
         Console.WriteLine("Mean of Monthly, Performance, Bonus salary of employees whose age is greater than 30");
-        foreach (var emp in taskQuery3)
+        foreach (var emp in Query_temp3)
         {
             Console.WriteLine();
             Console.WriteLine($"Name : {emp.EmployeeName} \t Age :{emp.EmployeeAge} \t Average Salary: {emp.AverageSalary}");
